@@ -9,9 +9,6 @@ body
 }
 
 
-
-
-
 /*Star of header*/
 
 header{
@@ -63,15 +60,14 @@ div{
 }
 
 p{
-	padding: 2em; 
+	padding: 3em; 
 	text-align: center;
 	color: white;
 	font-family:'Baloo Bhaina', cursive;
 	padding-left:60px; 
 }
 
-span
-{
+span{
 	color: #9C6300;
 }
 
@@ -99,8 +95,32 @@ footer{
 *************************************************************************************************************/
 
 
-h4
-{
+h4{
+	
+	background-color: #9C6300;
 	color: white;
 	text-align: center;
+	font-family:'Baloo Bhaina', cursive;
+	margin-top: 5em;
+
+}
+
+
+
+/*************************************************************************************************************
+************************************************Tatoo*****************************************************
+************************************************************************************************************
+*************************************************************************************************************/
+h5{
+	background-color: #9C6300;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.deux, .trois{
+	display: flex;
+    justify-content: center;
+	height: 25em;
+	width: 25em;
 }
