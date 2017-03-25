@@ -1,37 +1,87 @@
-*
-{
+*{
 	margin: 0;
 	padding:0;
 }
 
-
 body
-
 {
-	background-color: #000000; 
+ 
 }
 
+
+
+
+
 /*Star of header*/
-img
-{
+
+header{
+	background-image: url("tatoo.gif"); 
+}
+
+img{
 	width: 100%;
 	height: 300px;
 	 
 }
 
-nav, a
-{
+nav, a{
 	background-color: #9C6300;
 	/*#B07510; */
 	text-align: center;
 	padding:1em;
 }
 
-a
-{
+
+a{
 	/*height: 2,5%;*/
 	color: white; 
 	font-weight:bold;
+	font-family:'Baloo Bhaina', cursive;
 }
 
  /*End of header*/
+
+
+ /*star of div */
+
+
+div{
+ 	background-color: black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ h1{
+	color: white;
+	#9C6300;
+	text-align: center;
+	font-family:'Baloo Bhaina', cursive;
+	font-size: 2em;
+}
+
+p{
+	padding: 2em; 
+	text-align: center;
+	color: white;
+	font-family:'Baloo Bhaina', cursive;
+}
+
+.maori2{
+	padding-left: 7em;
+}
+/*end of div*/
+
+
+/*star of footer*/
+footer{
+	background-color: green;
+	height: 50px;
+	margin: 0;
+	padding: auto;
+	padding-top: 30%;
+
+}
+/*end of footer*/
+
