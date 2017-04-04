@@ -47,33 +47,12 @@ a{
  /*star of div */
 
 
-.index {
-	background-image: url("img/pop.jpg");
- 	/*background-color: black;*/
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.color{
-
-	color: white;
-	background-color: black;
-	border: 3px black solid;
-	width: 20em;
-	height: 22em;
-	margin-left: 14em;
-
-}
-
 div{
-
  	background-color: black;
 	display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 
  h1{
